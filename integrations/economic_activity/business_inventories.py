@@ -48,7 +48,6 @@ except Exception as e:
     engine_status = 'Error'
     exit()
 
-# Connect to PostgreSQL
 try:
     conn = psycopg2.connect(
         dbname=dbname,
@@ -67,19 +66,15 @@ current_timestamp = datetime.now()
 
 for series_id, table_name in series_dict.items():
     try:
-        # Fetch data from FRED API
         data = fred.get_series(series_id)
         print(f"Successfully fetched data for series {series_id} from FRED API.")
         
-        # Convert to DataFrame
         df = pd.DataFrame(data, columns=[table_name])
         df.index.name = 'Date'
         df.reset_index(inplace=True)
         
-        # Add quarter column
         df['Quarter'] = df['Date'].dt.to_period('Q').dt.strftime('Q%q-%Y')
 
-        # Insert data into table with merge (upsert)
         insert_query = sql.SQL(f"""
             INSERT INTO {table_name} (Date, {table_name}, Quarter, when_updated)
             VALUES (%s, %s, %s, %s)
@@ -97,7 +92,6 @@ for series_id, table_name in series_dict.items():
         engine_status = 'Error'
         continue
     
-# Update the status of the 'business_inventories' engine in the engines table
 update_engine_query = sql.SQL("""
     UPDATE engines
     SET status = %s,
