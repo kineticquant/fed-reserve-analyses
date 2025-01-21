@@ -1,0 +1,10 @@
+sqlalchemy 
+psycopg2-binary 
+python-dotenv
+pandas
+numpy
+fredapi
+dash
+dash-bootstrap-components
+statsmodels
+yfinance 
