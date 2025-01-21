@@ -25,6 +25,7 @@ statsmodels
 yfinance 
 fredapi
 
+Some analyses are automatically configured with Dash and/or Matplotlib. If you don't wish to run the analyses scripts within that directory, simply ignore those libraries and don't install them.
 
 ------------
 
