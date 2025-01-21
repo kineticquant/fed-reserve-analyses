@@ -9,6 +9,8 @@ The utility also contains scripts gathering data from Coingecko and EIA. Some sc
 
 Tables are configured and created via the table_configuration.sql file. Since this is not a web application, the file will need to be run manually or initialized via the install_postgres_cnfg.py script.
 
+There is an "engines" table which can track the statuses of each integrated scrypt if desired. This table can be built upon for any web app design if desired.
+
 
 ------------
 
