@@ -17,6 +17,12 @@ These scripts belong to a centralized utility I've developed which is used to ru
 - Tables are configured and created via the table_configuration.sql file. Since this is not a web application, the file will need to be run manually or initialized via the install_postgres_cnfg.py script.
 - There is an "engines" table which can track the statuses of each integrated scrypt if desired. This table can be built upon for any web app design if desired, but if you run these scripts on a scheduler, ensure the initEngines script is also run to track the statusing and timestamps of each other script. This is essentially the monitoring utility.
 
+### Breakdown
+3 main categories of scripts are included, each having their own parent directory:
+- Integrations: Primary scripts responsible for fetching the data from various API's and storing the data in Postgres.
+- Analyses: Read the data from Postgres, typically store it in dataframes, and operating on top of it for analysis. Typically display outputs in a Dash app or Plot.
+- Predictions: Forecasted or predicted outputs based on certain key characterstics. Typically display outputs in a Dash app or Plot.
+
 Numerous libraries used including:
 - pandas
 - numpy
