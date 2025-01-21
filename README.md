@@ -37,10 +37,10 @@ Numerous libraries used including:
 Numerous different types of output are generated from these scripts. While most are used in a centralized web app, some are generic output graphs. I've provided samples below which I've personally found intriguing that are output from various scripts here, and/or the data in the database after using these scripts. Feel free to use these in the future in any capacity. More can be found in the export/img/ sub-directories.
 
 Housing Data:
-- ![housing_2019-now](https://github.com/user-attachments/assets/7ff39c57-e0bc-47d4-8936-1aa6b3598b70)
-- ![housing_2014-now](https://github.com/user-attachments/assets/b7d16ebd-327a-44f0-ae58-8bd6472c903c)
-- ![housing_1999-now](https://github.com/user-attachments/assets/a6a24e14-8d64-41c4-98b4-3cbda60196b4)
-- ![housing_1975-now](https://github.com/user-attachments/assets/dc26a6c2-7dad-4fcf-acb5-8fcd09b894fd)
+- Price from 2019-Now: ![housing_2019-now](https://github.com/user-attachments/assets/7ff39c57-e0bc-47d4-8936-1aa6b3598b70)
+- Price from 2014-Now: ![housing_2014-now](https://github.com/user-attachments/assets/b7d16ebd-327a-44f0-ae58-8bd6472c903c)
+- Price from 1999-Now: ![housing_1999-now](https://github.com/user-attachments/assets/a6a24e14-8d64-41c4-98b4-3cbda60196b4)
+- Price from 1975-Now: ![housing_1975-now](https://github.com/user-attachments/assets/dc26a6c2-7dad-4fcf-acb5-8fcd09b894fd)
 
 US Oil Against Inflation:
 - ![us_oil_v_inflation](https://github.com/user-attachments/assets/a4a9e913-b1ab-4851-990c-9e867e0c4921)
