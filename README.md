@@ -7,6 +7,8 @@ Credentials can be stored and configured in a .env file. A .env.dev file has bee
 
 The utility also contains scripts gathering data from Coingecko and EIA. Some scripts analyzing these are not included as they're part of a larger financial analysis tool. Simply place the API keys for each of these systems into the .env file.
 
+Tables are configured and created via the table_configuration.sql file. Since this is not a web application, the file will need to be run manually or initialized via the install_postgres_cnfg.py script.
+
 
 ------------
 
