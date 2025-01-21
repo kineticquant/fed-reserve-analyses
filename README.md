@@ -11,6 +11,20 @@ Tables are configured and created via the table_configuration.sql file. Since th
 
 There is an "engines" table which can track the statuses of each integrated scrypt if desired. This table can be built upon for any web app design if desired.
 
+Numerous libraries used including:
+os
+pandas
+numpy
+requests
+sqlalchemy 
+psycopg2-binary 
+python-dotenv
+dash
+dash-bootstrap-components
+statsmodels
+yfinance 
+fredapi
+
 
 ------------
 
