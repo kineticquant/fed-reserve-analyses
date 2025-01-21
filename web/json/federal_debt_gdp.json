@@ -1,0 +1,46 @@
+[
+    {
+        "president": "Bill Clinton",
+        "percent_change": -8.771
+    },
+    {
+        "president": "Lyndon B. Johnson",
+        "percent_change": -4.144
+    },
+    {
+        "president": "Richard Nixon",
+        "percent_change": -4.111
+    },
+    {
+        "president": "Jimmy Carter",
+        "percent_change": -1.931
+    },
+    {
+        "president": "Joe Biden",
+        "percent_change": -0.137
+    },
+    {
+        "president": "Gerald Ford",
+        "percent_change": 2.854
+    },
+    {
+        "president": "George H. W. Bush",
+        "percent_change": 12.979
+    },
+    {
+        "president": "Ronald Reagan",
+        "percent_change": 19.024
+    },
+    {
+        "president": "Donald Trump",
+        "percent_change": 22.391
+    },
+    {
+        "president": "Barack Obama",
+        "percent_change": 22.657
+    },
+    {
+        "president": "George W. Bush",
+        "percent_change": 23.073
+    }
+]
