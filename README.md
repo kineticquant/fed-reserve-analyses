@@ -1,7 +1,7 @@
-# Federal Reserve Analyses
+# Federal Reserve, EIA, and Financial Analyses
 
 ### Summary
-This repo contains a generic scripted setup using Python to get data from various API's including FRED (Federal Reserve), EIA, and more, and store this in a Postgres database. Subsequently, it contains script which read and analyze this data, as well as predictions.
+This repo contains a series of generic Python scripts which fetch data from various API's including FRED (Federal Reserve), EIA, and more, and store this in a Postgres database. Subsequently, it contains script which read and analyze this data, as well as predictions. This is not a centralized application, but instead an extract of various scripts used within a financial web application I've been building, which will be released separately.
 
 Developed using:
 
